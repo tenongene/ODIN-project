@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+  
+}
+
+.img--1 {
+    height: 250px;
+    width: 250px;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    background-color: #1f1a2e;
+    color: white
+    
+}
+
+.links {
+    display: flex;
+}
+
+.btn {
+    background-color: rgb(7, 111, 247);
+
+}
+
+.quote {
+    background-color: rgb(202, 207, 230);
+    padding: 50px;
+    justify-content: center;
+}
+.copyright {
+    display: flex;
+    background-color: #1f1a2e;
+    color: white;
+    font-size: 10px;
+    justify-content: center;
+    padding: 30px;
+}
