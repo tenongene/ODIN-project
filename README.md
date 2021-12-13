@@ -1,4 +1,4 @@
 # ODIN_Project
 
-My first GitHun repo!
+My first GitHub repo!
 Hello Odin!
