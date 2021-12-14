@@ -28,6 +28,9 @@
 
 .btn {
   background-color: rgb(7, 111, 247);
+  color: white;
+  height: 30px;
+  width: 90px;
 }
 
 .img--row {
@@ -54,6 +57,23 @@
   padding: 50px;
   justify-content: center;
 }
+
+.btn--2 {
+  background-color: rgb(7, 111, 247);
+  color: white;
+  height: 30px;
+  width: 90px;
+  border-color: antiquewhite;
+  border-width: 3px;
+  justify-content: flex-end;
+}
+
+.action {
+    background-color: rgba(2, 122, 235, 0.925);
+    color: white;
+}
+
+
 .copyright {
   display: flex;
   background-color: #1f1a2e;
