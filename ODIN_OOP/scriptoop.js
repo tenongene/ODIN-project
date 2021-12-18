@@ -26,7 +26,7 @@
 
 let myLibrary = [];
 const btn = document.querySelector(".btn");
-let container = document.querySelector(".cont1").innerHTML;
+let entry = document.querySelector(".entries").innerHTML;
 
 const Book = function (title, author, pages, readStatus) {
   // the constructor...
@@ -52,7 +52,14 @@ function addBookToLibrary(book) {
     prompt("Enter read status:")
   );
   myLibrary.push(book);
-  console.log([...myLibrary]);
+  console.log(myLibrary);
+
+  document.querySelector(
+    ".entries"
+  ).innerHTML += `<tr></tr><td>${book.title}</td>
+  <td>${book.author}</td>
+  <td>${book.pages}</td>
+  <td>${book.readStatus}</td></tr>`;
 }
 
 btn.addEventListener("click", addBookToLibrary);
