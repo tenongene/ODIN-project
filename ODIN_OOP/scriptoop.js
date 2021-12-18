@@ -26,7 +26,7 @@
 
 let myLibrary = [];
 const btn = document.querySelector(".btn");
-let entry = document.querySelector(".entries").innerHTML;
+let entry = document.querySelector(".entries");
 
 const Book = function (title, author, pages, readStatus) {
   // the constructor...
@@ -54,9 +54,10 @@ function addBookToLibrary(book) {
   myLibrary.push(book);
   console.log(myLibrary);
 
-  document.querySelector(
-    ".entries"
-  ).innerHTML += `<tr></tr><td>${book.title}</td>
+  // document.querySelector(
+  //   ".entries"
+  // ).innerHTML 
+  entry.innerHTML += `<tr></tr><td>${book.title}</td>
   <td>${book.author}</td>
   <td>${book.pages}</td>
   <td>${book.readStatus}</td></tr>`;
