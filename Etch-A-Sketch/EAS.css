@@ -1,0 +1,35 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  width: 960px;
+  display: grid;
+  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.grid {
+  border: 2px solid green;
+  height: 110px;
+  width: 110px;
+  gap: 2px;
+  margin-bottom: 5px;
+  display: grid;
+  align-self: stretch;
+}
+
+.grid:hover {
+  background-color: lightgreen;
+}
+
+.btn {
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: lightgreen;
+  border-radius: 5px;
+  border-color: lightgreen;
+}
