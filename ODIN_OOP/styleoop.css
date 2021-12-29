@@ -1,21 +1,50 @@
 * {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
-  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: azure;
 }
-table,
-th,
-tr,
-td {
-  outline: 1px solid rgb(153, 149, 149);
+
+.entries {
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
 .btn {
-  border-radius: 5px;
-  padding: 15px;
+  border-radius: 7px;
+  padding: 10px;
   background-color: rgb(29, 88, 74);
   color: aliceblue;
+}
+
+.input {
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.input:hover {
+  background-color: rgb(226, 221, 245);
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  border: 2px solid rgb(89, 176, 247);
+  border-radius: 7px;
+  background-color: rgb(189, 226, 238);
+  box-shadow: 5px 5px 15px gray;
+  margin-bottom: 1px;
+}
+
+.title {
+  margin-left: 10px;
 }
