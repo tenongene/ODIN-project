@@ -1,4 +1,3 @@
 # ODIN_Project
 
-My first GitHub repo!
-Hello Odin!
+Projects exercises from the Odin Project development pathway.
